@@ -1,0 +1,4 @@
+Other possible state values in the package module:
+present: Ensures that the package is installed, but does not necessarily install the latest version. If the package is already installed, it won't make any changes.
+absent: Ensures that the package is not installed. It will remove the package if it's present.
+latest: Installs or updates the package to the latest version.
